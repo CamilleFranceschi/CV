@@ -2,26 +2,97 @@
 
 @import url("navbar.css");
 @import url("header.css");
-
+@import url("footer.css");
 
 body{
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 300,400,600*/
 	font-weight: 300;
-	color:#3b444f;
+	color:#67747C;
 	margin:0;
 	padding-top: 50px;
 }
 
-
-
-h2{
-
+.white-part{
+	padding:50px 0px;
 }
 
+.light-grey-part{
+	padding:50px 0px;
+}
+
+.middle-grey-part{
+	padding:50px 0px;
+}
+
+h2{
+	/*padding-top: 50px;*/
+	text-transform: uppercase;	
+	color:#3B444F;
+}
+
+
+
+h3{
+	padding-top: 50px;
+	padding-bottom:20px;
+	margin:0px 0px;
+	font-size: 45px;
+	font-height:58px;
+	color:#3B444F;
+}
+
+/*#4699D8*/
+
+.blueline{
+	  border-bottom:2px solid #297CBB;
+	  margin:0px 49vw;
+	  /*margin-bottom: 80px;*/
+}
+
+.align-horizon{
+	padding: 40px 0px;
+}
+
+/*.greyline{
+	border-bottom:1px solid #e4e4e4;
+	#67747c;
+  margin:0px 5vw;
+  margin-top: 50px;
+}*/
+
+p {
+	font-size: 18px;
+}
+h5 {
+	font-size: 26px;
+}
+
+h6{
+	font-style: italic;
+	font-size:16px;
+}
 
 a{
 	text-decoration: none;
 }
 
+.align-horizon{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.align-vertical{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 550px;
+}
+
+
+#skills .align-vertical {
+		width: 200px;
+}

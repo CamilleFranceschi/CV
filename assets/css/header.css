@@ -1,21 +1,35 @@
 .header {
 	display: flex;
-	height:80vh;
+	height:70vh;
 	background:url("../img/IMG_9521.jpg");
 	background-position: center;
 	align-items: center;
 	flex-direction:column;
 	justify-content: center;
 	background-size:cover;
-	text-align: center;
 	color: #fff;
 }
 
+/*.whiteline{
+	border-bottom:1px solid #fff;
+  margin:0px 5vw;
+  width:80vw;
+  padding: 0px 20px;
+}*/
+
+h1{
+	/*font-weight: 300,400,600*/
+	font-weight: 600;
+	font-size: 80px;
+	font-height:72px;
+	padding-bottom: 10px;
+	margin: 0px 0px;
+}
 
 .link{
 	display:flex;
 	flex-direction: row;
-	padding-top:40px;
+	padding-top:30px;
 }
 
 .link .fa-envelope {
@@ -28,11 +42,20 @@
 	color: #fff;
 }
 
-
-
-
-h1{
-		/*font-weight: 300,400,600*/
-	font-weight: 600;
-	font-size: 60px;
+.link .fa-envelope:hover {
+	color: #297CBB;
 }
+
+
+.link .fa-linkedin:hover {
+	color: #297CBB;
+}
+
+
+
+
+/*.header p {
+	padding-top:80px;
+	font-size: 30px;
+}*/
+
