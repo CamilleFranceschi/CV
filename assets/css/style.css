@@ -6,6 +6,7 @@
 @import url("footer.css");
 
 body{
+
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	/*font-weight: 300,400,600*/
@@ -17,6 +18,11 @@ body{
 
 .body{
 	padding: 0px 20px;
+}
+
+.pad110-0{
+	padding:110px 0px;
+
 }
 
 .pad70-0{
@@ -120,12 +126,16 @@ h3{
 .greyline{
 	border-bottom:1px solid #e4e4e4;
 	/*#67747c;*/
-  margin:0px 5vw;
+  margin:0px 8.5vw;
   margin-top: 50px;
 }
 
 p {
 	font-size: 18px;
+}
+
+#programming p {
+	text-align: left;
 }
 
 h5 {
@@ -141,6 +151,13 @@ h6{
 	font-style: italic;
 }
 
+h7 {
+		/*display:flex;*/
+	font-size:18px;
+	text-align: left;
+	font-style: italic;
+}
+}
 a{
 	text-decoration: none;
 }
