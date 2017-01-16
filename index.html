@@ -232,7 +232,7 @@
 
 				<div class="align-horizon">
 
-					<div class="align-vertical">
+					<div class="align-vertical-skills">
 
 					<canvas id="business" height="130" width="130"></canvas>
 
@@ -243,6 +243,9 @@
 						<br>Financial modelisation</p>
 
 						<script>
+							var options = {        
+    						percentageInnerCutout: 80
+							};
 							var doughnutData = [
 									{
 										value: 70,
@@ -253,22 +256,26 @@
 										color : "#e4e4e4"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("business").getContext("2d")).Doughnut(doughnutData);
+
+								var myDoughnut = new Chart(document.getElementById("business").getContext("2d")).Doughnut(doughnutData, options);
 						</script>
 
 					</div>	
 
-					<div class="align-vertical">
+					<div class="align-vertical-skills">
 
 					<canvas id="programming" height="130" width="130"></canvas>
 						<h5>Programming</h5>
 
-						<p>Programming 
-						<br>VBA/R/Matlab/Java 
+						<p>VBA/R/Matlab/Java 
 						<br>HTML/CSS 
 						<br>Ruby/Javascript</p>	
 
 						<script>
+							var options = {        
+    						percentageInnerCutout: 80
+							};
+
 							var doughnutData = [
 									{
 										value: 40,
@@ -279,11 +286,11 @@
 										color : "#e4e4e4"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("programming").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("programming").getContext("2d")).Doughnut(doughnutData, options);
 						</script>
 					</div>	
 
-					<div class="align-vertical">
+					<div class="align-vertical-skills">
 
 					<canvas id="design" height="130" width="130"></canvas>
 
@@ -291,6 +298,10 @@
 
 						<p>Sketch</p>
 						<script>
+							var options = {        
+    						percentageInnerCutout: 80
+							};
+
 							var doughnutData = [
 									{
 										value: 25,
@@ -301,7 +312,7 @@
 										color : "#e4e4e4"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("design").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("design").getContext("2d")).Doughnut(doughnutData, options);
 						</script>
 					</div>	
 
