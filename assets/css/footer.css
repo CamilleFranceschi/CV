@@ -7,9 +7,11 @@
 .link-footer a{
 	background-color:#3B444F;
 	color:blue;
-	padding:30px;
+	padding:20px;
 	margin:10px;
 	border-radius:50%;
+	/*width:500px;*/
+	height:auto;
 
 }
 
@@ -19,3 +21,7 @@
 		background-color:blue;
 
 	}
+
+.dark-grey-part p{
+	padding: 50px 0px;
+}
