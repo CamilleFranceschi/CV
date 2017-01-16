@@ -20,10 +20,15 @@
 h1{
 	/*font-weight: 300,400,600*/
 	font-weight: 600;
-	font-size: 80px;
-	font-height:72px;
+	/*font-size: 12vw;*/
+	    /*font-size: max(1em, 12px);*/
+	font-size:calc(40px + 3vw);
+	/*font-size: 2vmin;*/
+	/*font-size: 80vw;*/
+	text-size-adjust: auto;
 	padding-bottom: 10px;
 	margin: 0px 0px;
+	padding:0px 60px;
 }
 
 .link{

@@ -2,6 +2,7 @@
 
 @import url("navbar.css");
 @import url("header.css");
+@import url("skills.css");
 @import url("footer.css");
 
 body{
@@ -23,9 +24,6 @@ body{
 
 }
 
-
-
-
 /*h2{
 	padding-top: 20px;
 	text-transform: uppercase;	
@@ -42,7 +40,6 @@ h3{
 	font-height:58px;
 	color:#3B444F;
 	letter-spacing: 5px;
-	text-align: left;
 }
 
 /*#4699D8*/
@@ -61,7 +58,7 @@ h3{
 }
 
 .fa-circle-thin{
-color: #297CBB;
+	color: #297CBB;
 	background-color: white;
 }
 
@@ -86,9 +83,10 @@ color: #297CBB;
 
 .blueline{
   border-bottom:2px solid #297CBB;
-  margin:0px 49vw;
+  margin:0px 47vw;
   /*margin-bottom: 80px;*/
 }
+
 .align-history{
 	display: flex;
 
@@ -108,24 +106,28 @@ color: #297CBB;
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	border-left:1px solid #297CBB;
+
 	width: 550px;
 	padding: 40px 0px;
 	padding-left: 45px;
 }
 
+.blue-vertical-line{
+	border-left:1px solid #297CBB;
+}
 
 
-/*.greyline{
+.greyline{
 	border-bottom:1px solid #e4e4e4;
-	#67747c;
+	/*#67747c;*/
   margin:0px 5vw;
   margin-top: 50px;
-}*/
+}
 
 p {
 	font-size: 18px;
 }
+
 h5 {
 	font-size: 26px;
 	text-align: left;
@@ -136,6 +138,7 @@ h6{
 	/*display:flex;*/
 	font-size:18px;
 	text-align: left;
+	font-style: italic;
 }
 
 a{
