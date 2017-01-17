@@ -1,27 +1,73 @@
 
 .dark-grey-part{
-	padding:50px 0px;
-	background-color: #e4e4e4;
+	/*padding:50px 0px;*/
+	/*background-color: #e4e4e4;*/
+
+	/*display: flex;*/
+	height:60vh;
+	/*background:url("../img/IMG_9314.jpg");*/
+	background:linear-gradient(-225deg, rgba(50,50,50,0.5), 30%, rgba(60,60,60,0.9)), url("../img/IMG_9314.jpg");
+	background-size:cover;
+	background-position: center;
+	/*align-items: center;*/
+	/*flex-direction:column;*/
+	/*justify-content: center;*/
 }
 
-.link-footer a{
+.inline-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.around-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		/*padding: 20px 20px;*/
+		margin: 20px;
+		border-radius:50%;
+		border: 1px solid #e4e4e4;
+}
+
+.around-link:hover {
+	background-color:#e4e4e4;
+	border: 1px solid white;
+}
+
+.around-link a {
+	color:#e4e4e4;
+}
+
+.around-link a:hover {
+	color:white;
+}
+
+
+/*.link-footer a{
 	background-color:#3B444F;
+	height: 160px;
+	width:160px;
 	color:blue;
-	padding:20px;
-	margin:10px;
 	border-radius:50%;
-	/*width:500px;*/
-	height:auto;
 
-}
+}*/
 
-
+/*
 .link-footer a:hover{
 	color:purple;
-		background-color:blue;
+	background-color:blue;
 
-	}
+	}*/
 
 .dark-grey-part p{
-	padding: 50px 0px;
+	padding: 20px 0px;
+	margin:0px;
+	color:#e4e4e4;
+}
+
+.dark-grey-part h3{
+	color:#e4e4e4;
 }

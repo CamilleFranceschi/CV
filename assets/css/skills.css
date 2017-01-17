@@ -1,4 +1,4 @@
-.align-vertical-skills{
+.align-vertical-skills {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -7,6 +7,6 @@
 	padding: 40px 0px;
 }
 
-#skills h5{
+#skills h5 {
 	text-align: center;
 }
