@@ -25,8 +25,26 @@
 
 <body>
 
+
+
 <!-- Header -->
 	<div class="header">
+
+		<header>
+		  <button class="hamburger">&#9776;</button>
+		  <button class="cross">&#735;</button>
+		</header>
+
+		<div class="menu">
+				<div class="menu-items menu-title">Menu</div>
+				<div class="title-line"></div>
+		    <div class="menu-items"><a href="#about">About</a></div>
+		    <div class="menu-items"><a href="#experience">Experience</a></div>
+		    <div class="menu-items"><a href="#education">Education</a></div>
+		    <div class="menu-items"><a href="#activities">Activities</a></div>
+		    <div class="menu-items"><a href="#skills">Skills</a></div>
+		    <div class="menu-items"><a href="#side-project">Side projects</a></div>
+		</div>
 
 		<h1>Camille Franceschi</h1>
 
@@ -51,6 +69,7 @@
 <!-- Navbar -->
 
 <nav class="nav-bar">
+
   <a class="active" href="#about">About</a>
   <a href="#experience">Experiences</a>
   <a href="#education">Education</a>
@@ -61,17 +80,19 @@
 
 </nav>
 
-<div class="body">
+	<div class="body">
 
 	<!-- Part 1: About -->	
 		<div id="about" class="pad70-0">
 
 			<h3>About</h3>
+
 			<div class="blueline"></div>	
 
 			<div class="align-horizon">
 				<p>3 years of M&A background and a first entrepreneurial experience<br>Looking for a new challenge in a start-up/tech environment</p>
 			</div>
+
 		</div>
 
 		<div class="greyline"></div>
@@ -95,7 +116,7 @@
 						</div>
 					</div>
 
-					<h6>Career marketplace for retail ans services industries, Paris<br>August 2016 - Present</h6>
+					<h6>Career marketplace for retail and services industries, Paris<br>August 2016 - Present</h6>
 
 					<p>Structure the entire process
 					<br>Build business metrics
@@ -106,9 +127,9 @@
 					<h7>More info <a href="http://jobora.fr/" target="_blank"><i> here</i></a>
 					</h7>
 
-				</div>
+<!-- 				</div>
 
-				<div class="align-vertical blue-vertical-line">			
+				<div class="align-vertical blue-vertical-line">	 -->		
 
 					<div class="inline-subtitle">
 						<h5>CFL</h5>
@@ -158,9 +179,9 @@
 					<p>Master of Science in Quantitative Finance (104)
 					<br>Licence of Mathematics and Computer Science</p>
 
-				</div>
+<!-- 				</div>
 
-				<div class="align-vertical blue-vertical-line">
+				<div class="align-vertical blue-vertical-line"> -->
 
 					<div class="inline-subtitle">
 						<h5>HEC Lausanne</h5>
@@ -204,9 +225,9 @@
 					<p>Organisation of conferences with professionals
 					<br>Organisation of a skiing trop (28 participants)</p>	
 
-				</div>
+<!-- 				</div>
 
-				<div class="align-vertical blue-vertical-line">
+				<div class="align-vertical blue-vertical-line"> -->
 
 					<div class="inline-subtitle">
 						<h5>Cheer Up! Federation</h5>
@@ -292,6 +313,7 @@
 								];
 								var myDoughnut = new Chart(document.getElementById("programming").getContext("2d")).Doughnut(doughnutData, options);
 						</script>
+
 					</div>	
 
 					<div class="align-vertical-skills">
@@ -340,13 +362,13 @@
 
 		</div>
 	
-</div>
+	</div>
 	
-<div class="greyline"></div>
+	<div class="greyline"></div>
 
 	<!-- Footer -->
 
-	<div class="dark-grey-part pad70-0">
+	<div class="dark-grey-part pad50-0">
 
 		<h3>Contact</h3>
 
@@ -356,13 +378,13 @@
 
 				<div class="around-link">
 					<a href="mailto:franceschi.camille@gmail.com">
-						<i class="fa fa-envelope fa-2x"></i>
+						<i class="fa fa-envelope fa-lg"></i>
 					</a>
 				</div>
 
 				<div class="around-link">
 					<a href="https://www.linkedin.com/in/camille-franceschi-64499940">
-						<i class="fa fa-linkedin fa-2x"></i>
+						<i class="fa fa-linkedin fa-lg"></i>
 					</a>
 				</div>
 
@@ -376,6 +398,8 @@
 
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/nav-bar.js"></script>
+		<script src="assets/js/header.js"></script>
+		<script src="assets/js/resize.js"></script>
 
 
 	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

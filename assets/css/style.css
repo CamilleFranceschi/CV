@@ -5,6 +5,22 @@
 @import url("skills.css");
 @import url("footer.css");
 
+@media (min-width: 876px) {
+  header {
+    display: none;  
+  }
+
+}
+
+@media (max-width: 875px) {
+   .nav-bar {
+     display: none;  
+   }
+   .circle {
+   	display: none;
+   }
+}
+
 body{
 
 	text-align:center;
@@ -30,6 +46,11 @@ body{
 
 }
 
+.pad50-0{
+	padding:50px 0px;
+
+}
+
 /*h2{
 	padding-top: 20px;
 	text-transform: uppercase;	
@@ -38,12 +59,11 @@ body{
 
 
 
-h3{
+h3 {
 	padding-top: 50px;
 	padding-bottom:20px;
 	margin:0px 0px;
 	font-size: 45px;
-	font-height:58px;
 	color:#3B444F;
 	letter-spacing: 5px;
 }
@@ -52,30 +72,32 @@ h3{
 
 
 
-.inline-title{
+.inline-title {
 	display:flex;
 	flex-direction: row;
 	align-items: center;
 	padding:0px 10vw;
 }
 
-.inline-subtitle{
+.inline-subtitle {
 	position:relative;
 }
 
-.fa-circle-thin{
+.fa-circle-thin {
 	color: #297CBB;
 	background-color: white;
 }
 
-.circle{
+.circle {
 	position: absolute;
-	top:14px;
-	left:-52px;
+	top:54px;
+	left:calc(-8vw + 43px);
+	/*+7px*/
+
 /*	background-color: white;*/
 }
 
-.right-blueline{
+.right-blueline {
 	border-bottom:1px solid #297CBB;
 	  /*width: 300vw;*/
 	width: 100%;
@@ -87,13 +109,16 @@ h3{
 }
 
 
-.blueline{
+.blueline {
   border-bottom:2px solid #297CBB;
-  margin:0px 47vw;
+  /*margin:0px 47vw;*/
   /*margin-bottom: 80px;*/
+  width:40px;
+  margin:auto;
 }
 
-.align-history{
+
+.align-history {
 	display: flex;
 
 	/*margin:50px 0px;*/
@@ -102,20 +127,46 @@ h3{
 	/*text-align:left;*/
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	/*justify-content: center;*/
-	padding:50px 50px;
-/*	padding-left: 30px;*/
+	padding-bottom: 50px;
+/*	padding-left: 30vw;*/
+	padding-top: 40px;
+
 }
+
+.align-horizon{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 40px 0px;
+}
+
 
 .align-vertical{
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-
-	width: 550px;
+	/*width: 550px;*/
+	min-width :320px;
 	padding: 40px 0px;
-	padding-left: 45px;
+	padding-left: calc(8vw - 50px);
+	margin-left: 30vw;
+}
+
+.align-vertical p{
+	display: flex;
+	align-items: left;
+	text-align: left;
+	font-size: 16px;
+}
+
+.align-vertical h5 {
+	text-align: left;
+}
+
+.align-vertical h6{
+	text-align: left;
 }
 
 .blue-vertical-line{
@@ -140,46 +191,35 @@ p {
 
 h5 {
 	font-size: 26px;
-	text-align: left;
+	text-align: center;
 	color:#297CBB;
+	padding-top: 50px;
+	margin:0;
 }
 
 h6{
 	/*display:flex;*/
-	font-size:18px;
-	text-align: left;
+	font-size:16px;
+	text-align: center;
 	font-style: italic;
+	margin-bottom: 15px;
 }
 
 h7 {
 		/*display:flex;*/
-	font-size:18px;
+	font-size:16px;
 	text-align: left;
 	font-style: italic;
 }
-}
+
+
 a{
 	text-decoration: none;
 }
 
-.align-horizon{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 40px 0px;
-}
 
 
 
-.align-vertical p{
-	display: flex;
-	align-items: left;
-	text-align: left;
-
-}
 
 
-#skills .align-vertical {
-		width: 230px;
-}
+

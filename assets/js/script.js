@@ -1,7 +1,7 @@
 	// <script type="text/javascript">
 
-	$(document).ready(function () {
-    $(document).on("scroll", onScroll);
+$(document).ready(function () {
+$(document).on("scroll", onScroll);
     
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {

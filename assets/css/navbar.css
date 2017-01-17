@@ -33,6 +33,11 @@
 	margin:auto;
 }
 
+.nav-bar a:hover {
+	font-size: 13px;
+	text-decoration: none;
+}
+
 .navbar-fixed {
   top: 0;
   left:10px;

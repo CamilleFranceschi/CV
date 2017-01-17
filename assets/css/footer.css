@@ -4,10 +4,10 @@
 	/*background-color: #e4e4e4;*/
 
 	/*display: flex;*/
-	height:60vh;
+	height:55vh;
 	/*background:url("../img/IMG_9314.jpg");*/
 	background:linear-gradient(-225deg, rgba(50,50,50,0.5), 30%, rgba(60,60,60,0.9)), url("../img/IMG_9314.jpg");
-	background-size:cover;
+	background-size: cover;
 	background-position: center;
 	/*align-items: center;*/
 	/*flex-direction:column;*/
@@ -39,6 +39,7 @@
 
 .around-link a {
 	color:#e4e4e4;
+	padding: 15px;
 }
 
 .around-link a:hover {
@@ -70,4 +71,5 @@
 
 .dark-grey-part h3{
 	color:#e4e4e4;
+	padding-top: 0px;
 }

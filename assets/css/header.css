@@ -1,3 +1,119 @@
+header{
+	width:100%; 
+	background:none;
+	height:60px; 
+	position: fixed;
+	top:0;
+}
+
+.hamburger{
+  background-color:rgba(30,30,30,0.5);
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:2px 15px 2px 15px;
+  margin:5px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background-color:rgba(30,30,30,0.5);
+	top:301px;
+	width:130px;
+  right:0;
+	position: fixed;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:2.5em;
+  /*line-height:65px;*/
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu {
+	z-index:1000000;
+	font-weight:bold; 
+	font-size:1.6vw; 
+	width:130px; 
+	background:rgba(30,30,30,0.5);  
+	position: fixed;
+	margin-top: 50px;
+	top:0;
+	right:0;
+	text-align:center;
+	margin:0;
+ 	padding:0;
+ 	color:blue;
+}
+
+.menu-items{
+  padding:10px 10px 10px 10px;
+  color:blue;
+  /*#e4e4e4 */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.menu-title {
+	text-transform: uppercase;
+	color:white;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top:20px; 
+}
+
+.title-line {
+  border-bottom:1px solid white;
+  /*margin:0px 47vw;*/
+  /*margin-bottom: 80px;*/
+  width:20px;
+  margin:auto;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+/*
+.menu-items:first-child{
+  padding-top:50px; 
+}
+*/
+/*.menu-items:last-child{
+  padding-bottom:50px; 
+}*/
+
+.menu-items a{
+  /*color:#e4e4e4;*/
+  color:#DFDFDF;
+  font-size: 12px;
+  /*text-decoration: none;*/
+}
+
+.menu-items a:hover{
+	text-decoration:none; 
+	font-weight: 600;
+}
+
+
+/*.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+
+*/
+
+
 .header {
 	display: flex;
 	height:92vh;
@@ -28,7 +144,7 @@ h1{
 	text-size-adjust: auto;
 	padding-bottom: 10px;
 	margin: 0px 0px;
-	padding:0px 60px;
+	padding:0px 30px;
 }
 
 .link{
@@ -55,32 +171,16 @@ h1{
 	color: #fff;
 }
 
-
 .link .fa-linkedin{
 	color: #fff;
 }
-/*
+
 .link .fa-envelope:hover {
 	color: #297CBB;
 }
-
 
 .link .fa-linkedin:hover {
 	color: #297CBB;
-}*/
-
-
-.around-link-white:hover {
-	background-color: #e4e4e4;
-}
-
-.link .fa-envelope:hover {
-	background-color: #e4e4e4;
-}
-
-
-.link .fa-linkedin:hover{
-	color:white;
 }
 
 /*.header p {
