@@ -1,0 +1,15 @@
+
+.align-v{
+	display: flex;
+	flex-direction: column;
+}
+img {
+	height: 100px;
+	width: auto;
+}
+
+
+#side-project p {
+	font-size: 16px;
+	padding-top: 15px;
+}

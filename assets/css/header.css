@@ -167,21 +167,15 @@ h1{
 		border-radius:50%;
 }
 
-.link .fa-envelope {
+.around-link-white i{
 	color: #fff;
 }
 
-.link .fa-linkedin{
-	color: #fff;
+
+.around-link-white i:hover {
+	color: #67747C;
 }
 
-.link .fa-envelope:hover {
-	color: #297CBB;
-}
-
-.link .fa-linkedin:hover {
-	color: #297CBB;
-}
 
 /*.header p {
 	padding-top:80px;

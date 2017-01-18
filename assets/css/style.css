@@ -4,6 +4,7 @@
 @import url("header.css");
 @import url("skills.css");
 @import url("footer.css");
+@import url("sideprojects.css");
 
 @media (min-width: 876px) {
   header {

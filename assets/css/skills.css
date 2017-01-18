@@ -17,3 +17,28 @@
 	font-size: 16px;
 	padding-top: 15px;
 }
+
+
+.button {
+	padding: 8px 10px;
+	border-radius: 20px;
+	font-size: 16px;
+/*	text-transform: uppercase;*/
+	text-decoration: none;
+	color: #67747C;
+	border:1px solid #67747C;	
+}
+
+.button:hover {
+	background-color: #67747C;
+	color: white;
+	text-decoration: none;
+}
+
+.aroundbutton{
+	/*display: flex;*/
+	/*align-items: flex-start;*/
+	padding-top:2.5vh;
+
+}
+
