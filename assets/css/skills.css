@@ -18,7 +18,10 @@
 	padding-top: 15px;
 }
 
-
+/*.active .button a {
+	color:green;
+}
+*/
 .button {
 	padding: 8px 10px;
 	border-radius: 20px;
@@ -27,6 +30,8 @@
 	text-decoration: none;
 	color: #67747C;
 	border:1px solid #67747C;	
+	background-color: white;
+	outline:none;
 }
 
 .button:hover {
@@ -39,6 +44,38 @@
 	/*display: flex;*/
 	/*align-items: flex-start;*/
 	padding-top:2.5vh;
-
+		border:none;
 }
 
+.skills-details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#skills .skills-details p {
+	padding:2px 0px;
+	margin:0;
+}
+
+.align-dots{
+	display: flex;
+	flex-direction: row;
+	/*padding-left: 15px;*/
+	align-items: center;
+	/*text-align: left;*/
+	/*justify-content: left;*/
+}
+
+.align-dots:first-child{
+	padding-left:4px;
+}	
+.fa-circle {
+	padding:0px 1px;
+	color:#297CBB;
+}
+
+.fa-circle-thin {
+	padding:0px 1px;
+	color:#297CBB;
+}
