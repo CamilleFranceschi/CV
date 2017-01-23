@@ -25,8 +25,9 @@ header{
 
 .cross{
   background-color:rgba(30,30,30,0.5);
-	top:301px;
-	width:130px;
+	top:231px;
+	width:120px;
+	height:40px;
   right:0;
 	position: fixed;
   padding:0px 15px 0px 15px;
@@ -43,7 +44,7 @@ header{
 	z-index:1000000;
 	font-weight:bold; 
 	font-size:1.6vw; 
-	width:130px; 
+	width:120px; 
 	background:rgba(30,30,30,0.5);  
 	position: fixed;
 	margin-top: 50px;
@@ -56,7 +57,7 @@ header{
 }
 
 .menu-items{
-  padding:10px 10px 10px 10px;
+  padding:0px 10px 10px 10px;
   color:blue;
   /*#e4e4e4 */
   font-family: 'Open Sans', sans-serif;
@@ -78,7 +79,7 @@ header{
   /*margin-bottom: 80px;*/
   width:20px;
   margin:auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-top: 0px;
 }
 

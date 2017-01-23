@@ -3,7 +3,7 @@
 	/*padding:50px 0px;*/
 	/*background-color: #e4e4e4;*/
 	display: flex;
-	height:57vh;
+	/*height:57vh;*/
 	/*background:url("../img/IMG_9314.jpg");*/
 	background:linear-gradient(-225deg, rgba(50,50,50,0.5), 30%, rgba(60,60,60,0.9)), url("../img/IMG_9314.jpg");
 	background-size: cover;
